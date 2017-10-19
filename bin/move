@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
-  prints "Welcome to Tic Tac Toe!"
   board = [" "," "," "," "," "," "," "," "," "]
+  print "Welcome to Tic Tac Toe!"
   puts "Where would you like to go?"
   input.to_i = gets.strip
   input_to_index(input)
