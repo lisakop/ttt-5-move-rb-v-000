@@ -2,7 +2,7 @@
 
 require_relative '../lib/move.rb'
   print "Welcome to Tic Tac Toe!"
-  board = [" "," "," "," "," "," "," "," "," "]
+  board = "#{[" "," "," "," "," "," "," "," "," "]}"
   puts "Where would you like to go?"
   input.to_i = gets.strip
   input_to_index(input)
