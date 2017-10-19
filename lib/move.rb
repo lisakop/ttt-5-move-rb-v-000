@@ -7,7 +7,6 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  if (1..9).include?(input)
   input_to_index = input.to_i - 1
 end
 
